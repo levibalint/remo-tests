@@ -8,8 +8,6 @@ __author__ = 'lbalint'
 
 import requests
 from BeautifulSoup import BeautifulSoup
-from unittestzero import Assert
-
 from pages.page import Page
 
 
