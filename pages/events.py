@@ -22,7 +22,7 @@ class Events(Base):
     def search_for(self, value):
         self.type_in_element(self._search_locator, value)
 
-    def wait_for_wrapper_not_visible (self):
+    def wait_for_wrapper_not_visible(self):
         WebDriverWait(self.selenium, self.timeout).until(lambda s: self.is_element_visible(*self._loading_wrapper_locator))
 
     @property
