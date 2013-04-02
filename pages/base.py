@@ -30,7 +30,6 @@ class Base(Page):
             from pages.events import Events
             return Events(self.testsetup)
 
-
         @property
         def click_labs_link(self):
             self.selenium.find_element(*self._labs_locator).click()
