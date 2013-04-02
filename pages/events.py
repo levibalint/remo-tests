@@ -6,7 +6,7 @@
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-from pages.base import  Base
+from pages.base import Base
 
 
 class Events(Base):
