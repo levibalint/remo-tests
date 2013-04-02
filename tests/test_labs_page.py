@@ -2,8 +2,6 @@
 
 import pytest
 from unittestzero import Assert
-from pages.home import Home
-
 from pages.link_crawler import LinkCrawler
 
 class TestLabs:
