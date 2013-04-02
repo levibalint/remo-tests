@@ -1,4 +1,4 @@
-__author__ = 'lbalint'
+ #!/usr/bin/env python
 
 import pytest
 from unittestzero import Assert
