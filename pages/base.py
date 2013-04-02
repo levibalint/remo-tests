@@ -21,7 +21,6 @@ class Base(Page):
         _events_locator = (By.CSS_SELECTOR, '#navigation-box li:nth-child(3) a')
         _labs_locator = (By.CSS_SELECTOR, '#navigation-box li:nth-child(6) a')
 
-
         @property
         def main_menu(self):
             return [self.MainMenu(self.testsetup, item) for item in self.find_elements(*self._main_menu_locator)]
