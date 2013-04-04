@@ -44,4 +44,3 @@ class Base(Page):
 
             def click(self):
                 self._root_element.click()
-            
